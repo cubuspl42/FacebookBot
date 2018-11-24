@@ -254,7 +254,11 @@ function receivedMessage(event) {
     // If we receive a text message, check to see if it matches any special
     // keywords and send back the corresponding example. Otherwise, just echo
     // the text we received.
-    switch (messageText.replace(/[^\w\s]/gi, '').trim().toLowerCase()) {
+
+    // var command = messageText.replace(/[^\w\s]/gi, '').trim().toLowerCase();
+    // console.log("Command: %s", command);
+
+    switch (messageText) {
       case 'hello':
       case 'hi':
         sendHiMessage(senderID);
@@ -310,6 +314,10 @@ function receivedMessage(event) {
 
       case 'account linking':
         requiresServerURL(sendAccountLinking, [senderID]);
+        break;
+
+      case 'pociąg':
+        sendTextMessage(senderID, "Choo choo");
         break;
 
       default:
