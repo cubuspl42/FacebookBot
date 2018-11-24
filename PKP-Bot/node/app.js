@@ -317,7 +317,7 @@ function receivedMessage(event) {
         break;
 
       case 'pociąg':
-        sendTextMessage(senderID, "Choo choo");
+        sendTextMessage(senderID, "Choo choo 🚂 https://infopasazer.intercity.pl/");
         break;
 
       default:
