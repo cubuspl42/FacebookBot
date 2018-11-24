@@ -2,5 +2,5 @@
     "appSecret": "106c087ed71526e6b1be2bb21d1c405d",
     "pageAccessToken": "EAANAtL3BJGsBAD0WKykNBYxLw2Pro7iOdo304J6lW8EUJefZAML8aBAwV7ucDDCOwa0AaL2Xz6BA3iprdBYnjwFEBhk3n5uR2QKH2ZBVmxR8yTYfkqBfekK6jWZA20RoQ52oAEZAns2s9BskO9JWkXfZCtiC0ZCAnZAWHesn17qXQZDZD",
     "validationToken": "TOKEN",
-    "serverURL": "to_be_set_manually"
+    "serverURL": "https://tall-snail-10.localtunnel.me/"
 }
